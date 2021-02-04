@@ -12,7 +12,7 @@ This gem extends dav4rack to provide a CardDAV extension, CalDAV is not currentl
 
 # Usage
 
-Have a look at the examle folder, this is a standard Rack application and should run with any compliant server.
+Have a look at the [example](example) folder, this is a standard Rack application and should run with any compliant server.
 
 You can run the example with thin like this:
 
@@ -36,7 +36,7 @@ $ bundle
 $ bundle exec guard
 ```
 
-the tests will run when a file changed, if only want to run all tests once:
+the tests will run when a file changed, if you want to run all tests only once:
 
 ```bash
 $ bundle exec rake
